@@ -6,9 +6,6 @@ scripts_path=$(dirname "$(readlink -f "$0")")
 source "${scripts_path}/common.sh"
 
 if [ ! -f "boost_${BOOST_VERSION_FILE}.tar.bz2" ]; then
-  wget -q https://netcologne.dl.sourceforge.net/project/boost/boost/${BOOST_VERSION}/boost_${BOOST_VERSION_FILE}.tar.bz2
-fi
-if [ ! -f "boost_${BOOST_VERSION_FILE}.tar.bz2" ]; then
   wget -q https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_FILE}.tar.bz2
 fi
 set -ex
