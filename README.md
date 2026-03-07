@@ -1,4 +1,4 @@
-libtorrent-go 
+libtorrent-go [![Build Status](https://github.com/elementumorg/libtorrent-go/workflows/build/badge.svg)](https://github.com/elementumorg/libtorrent-go/actions?query=workflow%3Abuild)
 =============
 
 SWIG Go bindings for libtorrent-rasterbar
@@ -53,7 +53,6 @@ And a selection of platform specific packages (see below).
 - android-x64 (android-ndk-r14b with api 21, clang)
 - android-x86 (android-ndk-r14b with api 21, clang)
 - darwin-x64 (clang-4.0, llvm-4.0-dev, libtool, libxml2-dev, uuid-dev, libssl-dev patch make cpio)
-- darwin-x86 (clang-4.0, llvm-4.0-dev, libtool, libxml2-dev, uuid-dev, libssl-dev patch make cpio)
 - linux-armv6 (gcc-9 with Musl)
 - linux-armv7 (gcc-9 with Musl)
 - linux-arm64 (gcc-9 with Musl)
